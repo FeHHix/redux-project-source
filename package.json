@@ -1,0 +1,17 @@
+{
+  "name": "redux-ru-tutorial",
+  "version": "1.0.0",
+  "description": "Redux RU tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Artem Isaenok",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.1",
+    "webpack-hot-middleware": "^2.12.2"
+  }
+}

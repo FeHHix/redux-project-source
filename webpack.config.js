@@ -16,12 +16,11 @@ module.exports = {
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(), //добавить поддержку hot-reload
-    new webpack.NoErrorsPlugin()
   ],
   module: {
     loaders: [ //добавление babel-loader
       {
-        loaders: ['babel-loader'],
+        loaders: ['react-hot', 'babel-loader'],
         include: [
           path.resolve(__dirname, "src") //обработка файлов babel-loader'ом
         ],
